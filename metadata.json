@@ -1,0 +1,6 @@
+{
+  "name": "AuraWall - AI Phone Wallpaper Generator",
+  "description": "Mobile-first AI phone wallpaper generator with 9:16 variations, studio controls, reference image remixing, and an interactive AI Wallpaper Stylist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

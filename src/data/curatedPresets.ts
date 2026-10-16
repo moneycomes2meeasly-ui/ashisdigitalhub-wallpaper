@@ -1,0 +1,103 @@
+import { VibePreset, Wallpaper } from '../types';
+
+export const VIBE_PRESETS: VibePreset[] = [
+  {
+    id: 'rainy-cyberpunk',
+    name: 'Rainy Cyberpunk Lo-Fi',
+    emoji: '🌧️',
+    prompt: 'Rainy cyberpunk lo-fi street in Neo Tokyo, glistening wet pavement reflecting neon magenta and cyan signs, steam rising from ramen alley grates, cozy warm interior light through foggy window, cinematic moody 9:16 mobile wallpaper',
+    category: 'cyberpunk',
+  },
+  {
+    id: 'minimal-botanical',
+    name: 'Minimalist Botanical',
+    emoji: '🌿',
+    prompt: 'Minimalist organic botanical leaves, warm earthy terracotta and sage green tones, soft afternoon sunlight casting delicate shadows, clean architectural negative space, aesthetic modern wallpaper',
+    category: 'minimal',
+  },
+  {
+    id: 'celestial-nebula',
+    name: 'Celestial Deep Cosmos',
+    emoji: '🌌',
+    prompt: 'Deep interstellar cosmic nebula with swirling stardust, iridescent purple and gold luminous auroras, distant glowing crescent moon, serene dark astronomy aesthetic phone wallpaper',
+    category: 'abstract',
+  },
+  {
+    id: 'tokyo-midnight',
+    name: 'Tokyo Midnight Rain',
+    emoji: '⛩️',
+    prompt: 'Midnight in Shinjuku during gentle autumn drizzle, glowing traditional red lanterns casting warm amber glow over narrow wet flagstone path, tranquil lo-fi anime art style, 9:16 phone wallpaper',
+    category: 'lo-fi',
+  },
+  {
+    id: 'liquid-chrome',
+    name: 'Iridescent Liquid Chrome',
+    emoji: '✨',
+    prompt: 'Futuristic iridescent liquid metallic chrome curves, holographic spectrum pastel reflections, smooth fluid 3D ribbon dynamics, dark obsidian background, luxury abstract mobile wallpaper',
+    category: 'abstract',
+  },
+  {
+    id: 'desert-dunes',
+    name: 'Dusk Desert Dream',
+    emoji: '🏜️',
+    prompt: 'Minimalist undulating Sahara sand dunes at dusk, twilight gradient sky transitioning from lavender to peach, lone sculpted silhouette, peaceful cinematic zen aesthetic',
+    category: 'nature',
+  },
+  {
+    id: 'retro-synthwave',
+    name: 'Vaporwave Sunset Highway',
+    emoji: '🌴',
+    prompt: '1980s retro synthwave coastal highway, purple sunset with wireframe neon sun on the horizon, silhouettes of palm trees, vintage sports car taillights, nostalgic lo-fi aesthetic',
+    category: 'retro',
+  },
+  {
+    id: 'cozy-coffee',
+    name: 'Cozy Rain & Coffee',
+    emoji: '☕',
+    prompt: 'Cozy rainy afternoon inside a wooden coffee shop, hot mug with gentle swirling steam, raindrops trailing down windowpane looking out into lush misty pine forest, warm ambient glow',
+    category: 'lo-fi',
+  },
+];
+
+export const INITIAL_FEATURED_WALLPAPERS: Wallpaper[] = [
+  {
+    id: 'curated-1',
+    url: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=80',
+    prompt: 'Rainy cyberpunk lo-fi city street with neon magenta reflections, wet asphalt, steam and atmospheric glow',
+    variationIndex: 1,
+    aspectRatio: '9:16',
+    imageSize: '1K',
+    model: 'gemini-3-pro-image-preview',
+    createdAt: '2026-10-16T10:00:00Z',
+  },
+  {
+    id: 'curated-2',
+    url: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1080&q=80',
+    prompt: 'Ethereal purple nebula and starry cosmos, glowing aurora ribbons and astronomical depth',
+    variationIndex: 2,
+    aspectRatio: '9:16',
+    imageSize: '1K',
+    model: 'gemini-3-pro-image-preview',
+    createdAt: '2026-10-16T10:00:00Z',
+  },
+  {
+    id: 'curated-3',
+    url: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1080&q=80',
+    prompt: 'Majestic snowy mountain peaks under starry midnight sky, crisp alpine serenity and glowing Milky Way',
+    variationIndex: 3,
+    aspectRatio: '9:16',
+    imageSize: '1K',
+    model: 'gemini-3-pro-image-preview',
+    createdAt: '2026-10-16T10:00:00Z',
+  },
+  {
+    id: 'curated-4',
+    url: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1080&q=80',
+    prompt: 'Surreal iridescent dreamscape with lavender mist, minimal geometric arches and warm golden hour light',
+    variationIndex: 4,
+    aspectRatio: '9:16',
+    imageSize: '1K',
+    model: 'gemini-3-pro-image-preview',
+    createdAt: '2026-10-16T10:00:00Z',
+  },
+];
